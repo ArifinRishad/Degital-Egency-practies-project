@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Manubar*/
+.manubar {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    align-items: center;
+}
+
+.manu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+}
+/*Banner content*/
+
+.banner-contaner {
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-text{
+    
+    padding-top: 350px;
+    padding-left: 300px;
+}
+.banner-titel{
+    font-size: 70px;
+    color: white;
+
+}
+span{
+    color: red;
+}
+.banner-despription{
+    font-size: 20px;
+    color: white;
+    width: 50%;
+}
+.banner-btnone{
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    font-size: 20px ;
+    border: 0px;
+}
+.banner-btntow{
+height: 40px;
+width: 130px;
+background-color:white;
+font-size: 20px ;
+border: 0px;
+}
+/*Webpage body container*/
+.body-container{
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-size: cover;
+    height: 100vh;
+}
+.body-container{
+    display: flex;
+}
+.icons{
+    display:flex ;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 10px;
+    
+
+}
+.box-color{
+    background-color: white;
+   
+}
+.box-color{
+    text-align: center;
+    width:150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+   
+}
+.first-box{
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-top: 50%;
+    
+}
+.icon{
+    height: 90px;
+    width:90px;
+    margin-left: 10px;
+}
+.body-btn{
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    font-size: 20px ;
+    border: 0px;
+    margin-left: 50px ;
+
+}
+.body-left{
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.body-titls{
+    color: white;
+    font-size: 50px;
+    margin-left: 50px ;
+}
+.body-ditels{
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 50px ;
+    margin-top: 20px;
+}
+/*red sercel*/
+.contract{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color: red;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -60px;
+    border-radius: 5px;
+}
+.phone{
+    display: flex;
+    text-align: center;
+
+}
+.get{
+    padding: 5px;
+    padding-top: 20px;
+}
+.banner-btnone-last{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px ;
+    border: 0px;
+    margin-left: 50px ;
+    border-radius: 10px;
+
+}
+
